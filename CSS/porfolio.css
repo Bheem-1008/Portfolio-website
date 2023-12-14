@@ -144,23 +144,6 @@ body,html {
     position:relative;
     font-weight:500;
 }
-.about-text .read {
-    border:1px solid rgb(0, 0, 0);
-    margin-top:30px;
-    padding: 7px 15px;
-    font-size: 17px;
-    width:120px;
-    border-radius:5px;
-    color:rgb(255, 255, 255);
-    background-color: #000;
-    cursor: pointer;
-    transition: all ease .3s;
-
-}
-.about-text .read:hover{
-    color:#000000;
-    background:none;
-}
 /*  **** about end */
 
 /*  **** service  start */
@@ -186,35 +169,15 @@ body,html {
 .services-text:hover{
     box-shadow: 0px -0px 6px 3px #f8f8f8 , 0px 0px 5px 3px #f5f5f5 ;
 }
-.html-icon{
+.web-icon{
     text-align: center;
     font-size:60px;
-    color:red;
 }
-.css-icon-1{
-    text-align: center;
-    font-size:60px;
-    color:rgb(8, 0, 255);
-}
-.js-icon-2{
-    text-align: center;
-    font-size:60px;
-    color:rgb(255, 225, 0);
-}
-.services-text .read-mor {
-    width: 120px;
-    text-align: center;
-    border:1px solid rgb(0, 0, 0);
-    padding:7px 0px;
-    font-size:17px;
-    border-radius:5px;
-    transition: all ease .4s;
-    background: #000;
-    color:white;
-}
-.services-text .read-mor:hover{
-    background: none;
-    color:#000000;
+.services-text h3{
+   font-size: 26px;
+   font-family:'Times New Roman', Times, serif;
+   text-align: center;
+   letter-spacing: 1.5px;
 }
 .services-text p{
     margin-top:25px;
@@ -341,19 +304,18 @@ body,html {
         width:10%;
     }
 } 
-
+.pro-img {
+    /* height:250px; */
+    display: flex;
+    justify-content: center;
+}
+.pro-img img{
+    height:300px;
+    width: 70%;
+    margin-top: 60px;
+    border-radius: 10px;
+}
 /* my skill end */
-
-/* latest project */
-.project-box {
-    margin-top:70px;
-}
-.project-img img{
-    margin-top:25px;
-    cursor: pointer;
-
-}
-/* latest project end */
 
 /* contact me  */
 
@@ -410,7 +372,7 @@ input[type=text], input[type=number] {
     border: none;
     background: #f1f1f1;
 }
-.area{
+.textarea{
     background: #f1f1f1;
     border:none;
     padding: 12px;
@@ -483,22 +445,15 @@ input[type=text], input[type=number] {
     .image{
         display: none;
     }
+    .pro-img img{
+        width: 351px;
+        height: 300px;
+    }
     .about-text{
         width: auto;
     }
-    .services-text{
-        height: auto;
-    }
-    .services-text .read-mor {
-        position: relative;
-        top:1px;
-        margin: auto;
-    }
-    .project-img img{
-        height:240px;
-    }
-    .area{
-        width: 315px;
+    .textarea{
+        width: 315px;   
     }
 }
 
@@ -532,13 +487,6 @@ input[type=text], input[type=number] {
         font-weight: 600;
         margin-right: 30px; 
     }
-    .services-text{
-        height: auto;
-    }
-    .services-text .read-mor {
-        position: relative;
-        left:40px;
-    }
     .project-img img{
         height:200px;
     }
@@ -569,10 +517,7 @@ input[type=text], input[type=number] {
         display: block;
     }
     .services-text{
-        height: 350px;
-    }
-    .services-text .read-mor {
-      margin-left: 80px;
+        height: 300px;
     }
     .project-img img{
         height:270px;
